@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scriptes\Bullet.cs" />
     <Compile Include="Assets\Scriptes\HealthComponent.cs" />
+    <Compile Include="Assets\Scriptes\ImpulseGun.cs" />
     <Compile Include="Assets\Scriptes\PhysicalWeapon.cs" />
     <Compile Include="Assets\Scriptes\Pistol.cs" />
     <Compile Include="Assets\Scriptes\PlayerAttack.cs" />
@@ -70,11 +71,11 @@
     <Compile Include="Assets\Scriptes\RayCastWeapon.cs" />
     <Compile Include="Assets\Scriptes\Shotgun.cs" />
     <Compile Include="Assets\Scriptes\Weapon.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/3D Game Programming/Unity/RayCastingWeapons/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/3D Game Programming/Unity/RayCastingWeapons/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>E:/3D Game Programming/Unity/RayCastingWeapons/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
